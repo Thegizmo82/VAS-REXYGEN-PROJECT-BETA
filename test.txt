@@ -1,0 +1,113 @@
+REX BINARY STREAM
+File identification: 0x52455802
+File version: 2
+REX identification: Version 2.50.1 Revision 7567, Target -1, Date 2016-11-07
+Section count: 4
+Parsed on: 2017-10-08 03:14:18 [UTC]
+
+[INFO]
+ChecksumBlocks: B150F98BE37D1234AB62AE1626D839F8
+ChecksumParams: 83CC210D3454EF0461DCEDC45C6DB946
+
+[MODULES]
+GUID: 00000000-0000-0000-0000-000000000000
+Size: 24
+File offset: 103
+Hash: 5CF1237729EBFF17A2852B623D427A4694EC145F9B6C54A7D601CEEC41AF5886
+Content not parsed
+
+[CLASS LIST]
+GUID: 00000000-0000-0000-0000-000000000000
+Size: 498
+File offset: 181
+Hash: A58139E5806CAEC067ABE0C932A2675F8767DE9545C174B03D5FA27EC211CCC7
+Content not parsed
+
+[EXECUTIVE]
+GUID: 34e2c3a5-c5a0-11d2-87bb-00105abfecca
+Size: 67743
+File offset: 733
+Hash: B008D54EF242F9AD765570FD1386FC0D08103E75DE00DC5FD4D2CD1ED317735B
+Content not parsed
+
+[HMI]
+GUID: 34e2c403-c5a0-11d2-87bb-00105abfecca
+Size: 7627220
+File offset: 68530
+Hash: DDBC64E871338B9B411A126341B76C81E790B4AEC310E5AE27708192635095D5
+  hmi/control.html
+    size:1921612 method:compressed time:2017-06-10 23:25:13
+  hmi/css/metro-theme/images/animated-overlay.gif
+    size:1738 method:compressed time:2016-11-08 07:01:20
+  hmi/css/metro-theme/images/ui-icons_006bb9_256x240.png
+    size:4549 method:compressed time:2016-11-08 07:01:20
+  hmi/css/metro-theme/images/ui-icons_222222_256x240.png
+    size:6922 method:compressed time:2016-11-08 07:01:30
+  hmi/css/metro-theme/images/ui-icons_454545_256x240.png
+    size:6992 method:compressed time:2016-11-08 07:01:30
+  hmi/css/metro-theme/images/ui-icons_888888_256x240.png
+    size:6999 method:compressed time:2016-11-08 07:01:34
+  hmi/css/metro-theme/images/ui-icons_cd0a0a_256x240.png
+    size:4549 method:compressed time:2016-11-08 07:01:34
+  hmi/css/metro-theme/images/ui-icons_ffffff_256x240.png
+    size:6299 method:compressed time:2016-11-08 07:01:34
+  hmi/css/metro-theme/jquery-ui-1.12.0-custom.min.css
+    size:30970 method:compressed time:2016-11-08 07:01:12
+  hmi/css/metro-theme/jquery-ui-timepicker-addon.min.css
+    size:648 method:compressed time:2016-11-08 07:01:12
+  hmi/css/rex-hmi.min.css
+    size:18574 method:compressed time:2016-11-08 07:01:20
+  hmi/images/favicon.ico
+    size:1150 method:compressed time:2016-11-08 07:01:12
+  hmi/images/favicon.png
+    size:1765 method:compressed time:2016-11-08 07:01:12
+  hmi/images/graph/chart_line.png
+    size:526 method:compressed time:2016-11-08 07:01:34
+  hmi/images/graph/cog.png
+    size:512 method:compressed time:2016-11-08 07:01:34
+  hmi/images/graph/control_pause_blue.png
+    size:721 method:compressed time:2016-11-08 07:01:34
+  hmi/images/graph/control_play_blue.png
+    size:717 method:compressed time:2016-11-08 07:01:36
+  hmi/images/graph/text_list_bullets.png
+    size:344 method:compressed time:2016-11-08 07:01:36
+  hmi/images/rex-block/error.png
+    size:614 method:compressed time:2016-11-08 07:01:36
+  hmi/images/rex-block/info.png
+    size:1087 method:compressed time:2016-11-08 07:01:36
+  hmi/images/rex_logo_small_white.png
+    size:1922 method:compressed time:2016-11-08 07:01:20
+  hmi/images/rex_logo_t_50.png
+    size:3383 method:compressed time:2016-11-08 07:01:30
+  hmi/images/rex_logo_white.png
+    size:3526 method:compressed time:2016-11-08 07:01:30
+  hmi/index.html
+    size:7693454 method:compressed time:2017-06-10 23:25:14
+  hmi/js/Globalize/01-globalize.js
+    size:45706 method:compressed time:2016-11-08 07:01:20
+  hmi/js/Globalize/02-globalize.culture.cs.js
+    size:2112 method:compressed time:2016-11-08 07:01:24
+  hmi/js/Globalize/LICENSE
+    size:1095 method:compressed time:2016-11-08 07:01:30
+  hmi/js/jQuery/jquery-disabler.js
+    size:23808 method:compressed time:2016-11-08 07:01:12
+  hmi/js/jQuery/modules.md
+    size:961 method:compressed time:2016-11-08 07:01:20
+  hmi/js/rex-ui-svg-general.js
+    size:109233 method:compressed time:2016-11-08 07:00:38
+  hmi/js/rex-ui-svg-home.js
+    size:31905 method:compressed time:2016-11-08 07:00:36
+  hmi/js/rex-ui-svg-hvac.js
+    size:26198 method:compressed time:2016-11-08 07:00:38
+  hmi/js/rexhmi.min.js
+    size:1004708 method:compressed time:2016-11-08 07:02:02
+  hmi/VAS_exec.html
+    size:13818 method:compressed time:2017-06-10 23:25:14
+  hmi/VAS_LEVEL0_TASK0_MAIN.html
+    size:12521 method:compressed time:2017-06-10 23:25:14
+  hmi/VAS_LEVEL0_TASK1_TIME.html
+    size:1565558 method:compressed time:2017-06-10 23:25:14
+  hmi/VAS_LEVEL1_TASK0_SETUP.html
+    size:61653 method:compressed time:2017-06-10 23:25:14
+  hmi/VAS_LEVELxTASKx_THT.html
+    size:55227 method:compressed time:2017-06-10 23:25:14

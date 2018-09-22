@@ -1,0 +1,196 @@
+Model {
+  Name                    "VAS_exec"
+  Version                 3.00
+  #RexVersion             "2.50.1 rev. 7567, Date 2016-11-07"
+  SavedCharacterEncoding  "UTF-8"
+  BlockDefaults {
+    ForegroundColor         "black"
+    BackgroundColor         "white"
+    DropShadow              off
+    NamePlacement           "normal"
+    FontName                "Helvetica"
+    FontSize                10
+    FontWeight              "normal"
+    FontAngle               "normal"
+    ShowName                on
+    Orientation             "right"
+  }
+  AnnotationDefaults {
+    HorizontalAlignment     "left"
+    VerticalAlignment       "middle"
+    ForegroundColor         "black"
+    BackgroundColor         "white"
+    DropShadow              off
+    FontName                "Helvetica"
+    FontSize                10
+    FontWeight              "normal"
+    FontAngle               "normal"
+  }
+  LineDefaults {
+    FontName                "Helvetica"
+    FontSize                9
+    FontWeight              "normal"
+    FontAngle               "normal"
+  }
+  System {
+    Name                    "VAS_exec"
+    ZoomFactor              90
+    Location                [0, 38, 507, 500]
+    #GUID                   665608a9-1ebf-4554-a2b8-ebb976366f42
+    Block {
+      BlockType               Reference
+      Name                    "HMI"
+      Ports                   [0, 0, 0, 0, 0]
+      Position                [20, 38, 70, 52]
+      SourceBlock             "execlib/HMI"
+      IncludeHMI              on
+      HmiDir                  "hmi"
+      SourceDir               "hmisrc"
+      GenerateWebWatch        on
+      GenerateRexHMI          on
+      RedirectToHMI           off
+      Compression             on
+      #GUID                   8ab0b55f-23a4-463e-b488-e235c9a253d5
+    }
+    Block {
+      BlockType               Reference
+      Name                    "RPI"
+      Ports                   [1, 1, 0, 0, 0]
+      Position                [95, 118, 145, 132]
+      SourceBlock             "execlib/IODRV"
+      module                  "RPiDrv"
+      classname               "RPiDrv"
+      cfgname                 ""
+      factor                  1
+      stack                   10240
+      pri                     3
+      timer                   off
+      #GUID                   079a865e-d39f-4a70-b8fe-8f5a44914fd0
+    }
+    Block {
+      BlockType               Reference
+      Name                    "RPiDrv"
+      Ports                   [1, 1, 0, 0, 0]
+      Position                [95, 83, 145, 97]
+      SourceBlock             "execlib/MODULE"
+      #GUID                   15832ebe-ac86-4770-ad0b-159213826e88
+    }
+    Block {
+      BlockType               Reference
+      Name                    "VAS_LEVEL0_TASK0_MAIN"
+      Ports                   [1, 1, 0, 0, 0]
+      Position                [110, 223, 160, 237]
+      SourceBlock             "execlib/TASK"
+      factor                  1
+      start                   0
+      stop                    1
+      stack                   10240
+      filename                ""
+      MDLOPEN                 on
+      #GUID                   4356f088-19b5-45a2-a93c-26e24abe0b89
+    }
+    Block {
+      BlockType               Reference
+      Name                    "VAS_LEVEL0_TASK1_TIME"
+      Ports                   [1, 1, 0, 0, 0]
+      Position                [260, 223, 310, 237]
+      SourceBlock             "execlib/TASK"
+      factor                  1
+      start                   1
+      stop                    2
+      stack                   10240
+      filename                ""
+      MDLOPEN                 on
+      #GUID                   21c16ba1-7275-4c48-8d63-417ae703abe9
+    }
+    Block {
+      BlockType               Reference
+      Name                    "VAS_LEVEL1_TASK0_SETUP"
+      Ports                   [1, 1, 0, 0, 0]
+      Position                [130, 288, 180, 302]
+      SourceBlock             "execlib/TASK"
+      factor                  1
+      start                   0
+      stop                    1
+      stack                   10240
+      filename                ""
+      MDLOPEN                 on
+      #GUID                   2c4e2e94-6b07-4987-ac15-e381d7b92119
+    }
+    Block {
+      BlockType               Reference
+      Name                    "VAS_LEVELxTASKx_THT"
+      Ports                   [1, 1, 0, 0, 0]
+      Position                [420, 223, 470, 237]
+      SourceBlock             "execlib/TASK"
+      factor                  1
+      start                   2
+      stop                    3
+      stack                   10240
+      filename                ""
+      MDLOPEN                 on
+      #GUID                   a91bf837-a6e9-4a3a-9d1f-de84167a854a
+    }
+    Block {
+      BlockType               Reference
+      Name                    "VAS_task "
+      Ports                   [0, 8, 0, 0, 0]
+      Position                [20, 68, 65, 357]
+      SourceBlock             "execlib/EXEC"
+      target                  "Generic target device"
+      tick                    "0.05"
+      ntick0                  4
+      ntick1                  50
+      ntick2                  100
+      ntick3                  1200
+      pri0                    5
+      pri1                    9
+      pri2                    13
+      pri3                    18
+      #GUID                   3da81a2d-a805-40df-8374-a241629e90f2
+    }
+    Line {
+      SrcBlock                "VAS_LEVEL0_TASK0_MAIN"
+      SrcPort                 1
+      DstBlock                "VAS_LEVEL0_TASK1_TIME"
+      DstPort                 1
+      #GUID                   6a44e5c8-f423-4083-a0af-0ac9aecf766b
+    }
+    Line {
+      SrcBlock                "VAS_LEVEL0_TASK1_TIME"
+      SrcPort                 1
+      DstBlock                "VAS_LEVELxTASKx_THT"
+      DstPort                 1
+      #GUID                   e9633f8b-f1c4-488d-b034-6e8f6035e893
+    }
+    Line {
+      SrcBlock                "VAS_task "
+      SrcPort                 1
+      DstBlock                "RPiDrv"
+      DstPort                 1
+      #GUID                   6c6a9bc7-bdbb-4a27-bacc-01dc48c4b813
+    }
+    Line {
+      SrcBlock                "VAS_task "
+      SrcPort                 2
+      DstBlock                "RPI"
+      DstPort                 1
+      #GUID                   8a0760d8-e1b9-491d-8b61-96fbb652aafc
+    }
+    Line {
+      SrcBlock                "VAS_task "
+      SrcPort                 5
+      DstBlock                "VAS_LEVEL0_TASK0_MAIN"
+      DstPort                 1
+      #GUID                   d5d8571c-2b28-47dd-9de9-2ef5eb211ff1
+    }
+    Line {
+      SrcBlock                "VAS_task "
+      SrcPort                 6
+      Points                  [45, 0]
+      DstBlock                "VAS_LEVEL1_TASK0_SETUP"
+      DstPort                 1
+      #GUID                   f8649724-c2b4-4d76-9366-a61590dcedbf
+    }
+  }
+}
