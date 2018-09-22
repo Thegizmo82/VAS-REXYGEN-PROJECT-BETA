@@ -1,0 +1,111 @@
+REX BINARY STREAM
+File identification: 0x52455802
+File version: 2
+REX identification: Version 2.50.7 Revision 9228, Target -1, Date 2018-03-28
+Section count: 4
+Parsed on: 2018-09-22 00:36:17 [UTC]
+
+[INFO]
+ChecksumBlocks: EDE046C601727FC09FB301278806BE31
+ChecksumParams: 195DDFB88D46CD93BC1EF2BFDB2F8C76
+
+[MODULES]
+GUID: 00000000-0000-0000-0000-000000000000
+Size: 44
+File offset: 103
+Hash: 54D3BB8B20C14ACCB472D69018E16793DEC08F4EB94D295707A8A81A34015D0C
+Content not parsed
+
+[CLASS LIST]
+GUID: 00000000-0000-0000-0000-000000000000
+Size: 578
+File offset: 201
+Hash: D3440EDD6CC5FE5B0523DFBB260303F3B797D944C003CAAC5A64216D54DD440D
+Content not parsed
+
+[EXECUTIVE]
+GUID: 34e2c3a5-c5a0-11d2-87bb-00105abfecca
+Size: 89321
+File offset: 833
+Hash: 89270D2B1A57AE8F05FACA1634F57FCFB4C50BB71D8CF12E4C937E89B6C1C2EF
+Content not parsed
+
+[HMI]
+GUID: 34e2c403-c5a0-11d2-87bb-00105abfecca
+Size: 552939
+File offset: 90208
+Hash: FE7FBB4BFA1B747BFCEF41A3DE7D76B2B9BD8B7D6F8B7BA6B35E95AE267FBA19
+  hmi/css/jquery-ui/images/animated-overlay.gif
+    size:1738 method:compressed time:2018-09-21 20:56:47
+  hmi/css/jquery-ui/images/ui-icons_000000_256x240.png
+    size:5331 method:compressed time:2018-09-21 20:56:47
+  hmi/css/jquery-ui/images/ui-icons_545e61_256x240.png
+    size:4549 method:compressed time:2018-09-21 20:56:47
+  hmi/css/jquery-ui/images/ui-icons_b6bab7_256x240.png
+    size:4549 method:compressed time:2018-09-21 20:56:47
+  hmi/css/jquery-ui/images/ui-icons_df2626_256x240.png
+    size:4549 method:compressed time:2018-09-21 20:56:47
+  hmi/css/jquery-ui/images/ui-icons_f6a312_256x240.png
+    size:4549 method:compressed time:2018-09-21 20:56:47
+  hmi/css/jquery-ui/jquery-ui-1.12.1-custom.min.css
+    size:30954 method:compressed time:2018-09-21 20:56:47
+  hmi/css/jquery-ui/jquery-ui-timepicker-addon.min.css
+    size:648 method:compressed time:2018-09-21 20:56:47
+  hmi/css/mdc/rex-material-components-web.css
+    size:349471 method:compressed time:2018-09-21 20:56:47
+  hmi/css/rex-hmi.min.css
+    size:78865 method:compressed time:2018-09-21 20:56:46
+  hmi/css/rex-ui-svg-general.css
+    size:129 method:compressed time:2018-03-28 21:56:38
+  hmi/humidity.html
+    size:12662 method:compressed time:2018-09-21 20:56:45
+  hmi/images/account.svg
+    size:27013 method:compressed time:2018-09-21 20:56:47
+  hmi/images/favicon.ico
+    size:16958 method:compressed time:2018-09-21 20:56:47
+  hmi/images/graph/chart_line.png
+    size:526 method:compressed time:2018-09-21 20:56:47
+  hmi/images/graph/cog.png
+    size:512 method:compressed time:2018-09-21 20:56:47
+  hmi/images/graph/control_pause_blue.png
+    size:721 method:compressed time:2018-09-21 20:56:47
+  hmi/images/graph/control_play_blue.png
+    size:717 method:compressed time:2018-09-21 20:56:47
+  hmi/images/graph/text_list_bullets.png
+    size:344 method:compressed time:2018-09-21 20:56:47
+  hmi/images/info.svg
+    size:2916 method:compressed time:2018-09-21 20:56:47
+  hmi/images/lock.svg
+    size:27158 method:compressed time:2018-09-21 20:56:47
+  hmi/images/logo.svg
+    size:4593 method:compressed time:2018-09-21 20:56:47
+  hmi/images/logo_inverted.svg
+    size:2853 method:compressed time:2018-09-21 20:56:47
+  hmi/images/menu.svg
+    size:2167 method:compressed time:2018-09-21 20:56:47
+  hmi/images/rex-block/error.png
+    size:614 method:compressed time:2018-09-21 20:56:47
+  hmi/images/rex-block/info.png
+    size:1087 method:compressed time:2018-09-21 20:56:47
+  hmi/images/small_logo.svg
+    size:2905 method:compressed time:2018-09-21 20:56:47
+  hmi/images/small_logo_inverted.svg
+    size:1680 method:compressed time:2018-09-21 20:56:47
+  hmi/index.html
+    size:157379 method:compressed time:2018-09-21 20:56:46
+  hmi/js/rex-ui-svg-general.js
+    size:139726 method:compressed time:2018-03-28 21:56:38
+  hmi/js/rex-ui-svg-home.js
+    size:30077 method:compressed time:2018-03-28 21:56:38
+  hmi/js/rex-ui-svg-hvac.js
+    size:26295 method:compressed time:2018-03-28 21:56:38
+  hmi/js/rex-ui-svg-proc.js
+    size:12196 method:compressed time:2018-03-28 21:56:38
+  hmi/js/rexhmi-vendor.min.js
+    size:1225574 method:compressed time:2018-09-21 20:56:46
+  hmi/js/rexhmi.min.js
+    size:362021 method:compressed time:2018-09-21 20:56:47
+  hmi/temperature.html
+    size:12656 method:compressed time:2018-09-21 20:56:47
+  hmi/.cfg/default
+    size:0 method:stored time:2018-09-21 20:56:47
