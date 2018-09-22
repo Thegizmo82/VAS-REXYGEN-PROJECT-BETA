@@ -1,0 +1,4 @@
+This will need to be installed for PyEphem to work correctly.
+sudo apt-get install python-dev 
+sudo apt-get install python-pip 
+sudo pip install pyephem
