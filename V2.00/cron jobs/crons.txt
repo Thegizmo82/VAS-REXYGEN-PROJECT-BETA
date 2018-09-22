@@ -1,0 +1,19 @@
+1.
+python /rex/data/python/ephem_updater.py &
+Simple, when system boots, all
+
+2.
+python /rex/data/python/ephem_updater.py &
+Simple, Hourly, All
+
+3.
+python /rex/data/python/dht_uva.py &
+Simple, When system boots, All
+
+4.
+python /rex/data/python/dht_uvb.py &
+Simple, When system boots, All
+
+5.
+python /rex/data/python/dht_cave.py &
+Simple, When system boots, All
