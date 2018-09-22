@@ -1,0 +1,172 @@
+Model {
+  Name                    "VAS_LEVEL0_TASK0_MAIN"
+  Version                 3.00
+  #RexVersion             "2.50.1 rev. 7567, Date 2016-11-07"
+  SavedCharacterEncoding  "UTF-8"
+  BlockDefaults {
+    ForegroundColor         "black"
+    BackgroundColor         "white"
+    DropShadow              off
+    NamePlacement           "normal"
+    FontName                "Helvetica"
+    FontSize                10
+    FontWeight              "normal"
+    FontAngle               "normal"
+    ShowName                on
+    Orientation             "right"
+  }
+  AnnotationDefaults {
+    HorizontalAlignment     "left"
+    VerticalAlignment       "middle"
+    ForegroundColor         "black"
+    BackgroundColor         "white"
+    DropShadow              off
+    FontName                "Helvetica"
+    FontSize                10
+    FontWeight              "normal"
+    FontAngle               "normal"
+  }
+  LineDefaults {
+    FontName                "Helvetica"
+    FontSize                9
+    FontWeight              "normal"
+    FontAngle               "normal"
+  }
+  System {
+    Name                    "VAS_LEVEL0_TASK0_MAIN"
+    Location                [675, 40, 1280, 545]
+    #GUID                   c414b7b5-adad-44a7-80c9-5e4e2f19d292
+    Block {
+      BlockType               Inport
+      Name                    "TIME_ZONEA_OUT"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [140, 28, 170, 42]
+      Port                    1
+      #GUID                   6a439266-7a3c-461b-a70f-17d421ef4824
+    }
+    Block {
+      BlockType               Inport
+      Name                    "TIME_ZONEB_OUT"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [140, 63, 170, 77]
+      Port                    2
+      #GUID                   7799d79b-a5a5-4861-8be8-51b9f718d779
+    }
+    Block {
+      BlockType               Inport
+      Name                    "TIME_ZONEC_OUT"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [140, 98, 170, 112]
+      Port                    3
+      #GUID                   27b8fedc-867e-4c35-9bee-208892602ae4
+    }
+    Block {
+      BlockType               Inport
+      Name                    "TIME_ZONED_OUT"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [140, 133, 170, 147]
+      Port                    4
+      #GUID                   751b1c9f-d02c-4b7d-b4cf-b82e73097110
+    }
+    Block {
+      BlockType               Inport
+      Name                    "TIME_ZONEE_OUT"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [140, 173, 170, 187]
+      Port                    5
+      #GUID                   c320d641-dc15-4838-9eb1-7fdd857af064
+    }
+    Block {
+      BlockType               Inport
+      Name                    "TIME_ZONEF_OUT"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [140, 213, 170, 227]
+      Port                    6
+      #GUID                   d7de2095-0d30-4cac-ab95-e84e3bbc6ba0
+    }
+    Block {
+      BlockType               Inport
+      Name                    "TIME_ZONEG_OUT"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [140, 253, 170, 267]
+      Port                    7
+      #GUID                   783121fd-1297-4bb0-999b-006534a5dd22
+    }
+    Block {
+      BlockType               Inport
+      Name                    "TIME_ZONEH_OUT"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [140, 293, 170, 307]
+      Port                    8
+      #GUID                   d3dc82cb-808f-40c7-bdc2-1c65194dc732
+    }
+    Block {
+      BlockType               Goto
+      Name                    "Fountain"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [250, 133, 340, 147]
+      ShowName                on
+      GotoTag                 "RPI__GPIO25"
+      TagVisibility           "local"
+      #GUID                   8e4b3834-255d-46bd-a743-8c1a24c11954
+    }
+    Block {
+      BlockType               Goto
+      Name                    "UTH"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [250, 98, 340, 112]
+      ShowName                on
+      GotoTag                 "RPI__GPIO24"
+      TagVisibility           "local"
+      #GUID                   d04d091a-c0ca-42e4-a91c-d8f20cacb794
+    }
+    Block {
+      BlockType               Goto
+      Name                    "UVA"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [250, 63, 340, 77]
+      ShowName                on
+      GotoTag                 "RPI__GPIO23"
+      TagVisibility           "local"
+      #GUID                   5aede6b7-94b4-4663-af5c-4988576079c4
+    }
+    Block {
+      BlockType               Goto
+      Name                    "UVB"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [250, 28, 340, 42]
+      ShowName                on
+      GotoTag                 "RPI__GPIO22"
+      TagVisibility           "local"
+      #GUID                   29a30c70-c501-4e70-b8bf-6c0d08ef44df
+    }
+    Line {
+      SrcBlock                "TIME_ZONEA_OUT"
+      SrcPort                 1
+      DstBlock                "UVB"
+      DstPort                 1
+      #GUID                   22f5bc6b-78b0-4af7-a606-47e02818f1a8
+    }
+    Line {
+      SrcBlock                "TIME_ZONEB_OUT"
+      SrcPort                 1
+      DstBlock                "UVA"
+      DstPort                 1
+      #GUID                   b70a75c9-2de5-4a24-ae80-1bd32f89bb34
+    }
+    Line {
+      SrcBlock                "TIME_ZONEC_OUT"
+      SrcPort                 1
+      DstBlock                "UTH"
+      DstPort                 1
+      #GUID                   4be80f07-cac3-478b-ab02-e659b3c3b43e
+    }
+    Line {
+      SrcBlock                "TIME_ZONED_OUT"
+      SrcPort                 1
+      DstBlock                "Fountain"
+      DstPort                 1
+      #GUID                   77eb7b4d-0fd8-42e6-8d33-e352397553b7
+    }
+  }
+}

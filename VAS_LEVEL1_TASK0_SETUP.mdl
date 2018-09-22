@@ -1,0 +1,976 @@
+Model {
+  Name                    "VAS_LEVEL1_TASK0_SETUP"
+  Version                 3.00
+  #RexVersion             "2.50.1 rev. 7567, Date 2016-11-07"
+  SavedCharacterEncoding  "UTF-8"
+  BlockDefaults {
+    ForegroundColor         "black"
+    BackgroundColor         "white"
+    DropShadow              off
+    NamePlacement           "normal"
+    FontName                "Helvetica"
+    FontSize                10
+    FontWeight              "normal"
+    FontAngle               "normal"
+    ShowName                on
+    Orientation             "right"
+  }
+  AnnotationDefaults {
+    HorizontalAlignment     "left"
+    VerticalAlignment       "middle"
+    ForegroundColor         "black"
+    BackgroundColor         "white"
+    DropShadow              off
+    FontName                "Helvetica"
+    FontSize                10
+    FontWeight              "normal"
+    FontAngle               "normal"
+  }
+  LineDefaults {
+    FontName                "Helvetica"
+    FontSize                9
+    FontWeight              "normal"
+    FontAngle               "normal"
+  }
+  System {
+    Name                    "VAS_LEVEL1_TASK0_SETUP"
+    Location                [2, 44, 1263, 578]
+    #GUID                   8a116ae6-bedc-4187-ac17-10ee0b0755ca
+    Block {
+      BlockType               Reference
+      Name                    "CNB"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [160, 73, 180, 87]
+      SourceBlock             "mathlib/CNB"
+      YCN                     off
+      #GUID                   833042fa-093b-4f1c-aef3-1cb0f977d73c
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNB1"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [90, 103, 110, 117]
+      SourceBlock             "mathlib/CNB"
+      YCN                     off
+      #GUID                   367e5a4f-f617-41c2-984b-41e9b63c21cc
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_HOUR_MANB0"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [420, 273, 440, 287]
+      SourceBlock             "mathlib/CNI"
+      icn                     12
+      ForegroundColor         "red"
+      #GUID                   bbc8f135-22d0-4ceb-bf42-e58f7e9d73d0
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_HOUR_MANB1"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [425, 538, 445, 552]
+      SourceBlock             "mathlib/CNI"
+      icn                     14
+      ForegroundColor         "red"
+      #GUID                   19594c0c-3745-44f1-8193-f7af7ab6a097
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_HOUR_MANB2"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 798, 450, 812]
+      SourceBlock             "mathlib/CNI"
+      icn                     16
+      ForegroundColor         "red"
+      #GUID                   fd412406-d749-479c-a3a5-096294c03235
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_HOUR_MANB3"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 1048, 450, 1062]
+      SourceBlock             "mathlib/CNI"
+      icn                     18
+      ForegroundColor         "red"
+      #GUID                   d36a5aa6-2849-4939-80e8-740321b51b93
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_HOUR_MANB4"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 1303, 450, 1317]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "red"
+      #GUID                   c790500f-2797-4d85-9d6b-aa189b6b358d
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_HOUR_MANE0"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [420, 388, 440, 402]
+      SourceBlock             "mathlib/CNI"
+      icn                     14
+      ForegroundColor         "magenta"
+      #GUID                   1dac957a-c704-4c10-b309-3cfd396c21e8
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_HOUR_MANE1"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [425, 653, 445, 667]
+      SourceBlock             "mathlib/CNI"
+      icn                     16
+      ForegroundColor         "magenta"
+      #GUID                   16e36b51-75fe-4e16-a7a3-98e3b2234b1c
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_HOUR_MANE2"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 913, 450, 927]
+      SourceBlock             "mathlib/CNI"
+      icn                     18
+      ForegroundColor         "magenta"
+      #GUID                   21213be7-a256-4130-860e-5643512026b6
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_HOUR_MANE3"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 1163, 450, 1177]
+      SourceBlock             "mathlib/CNI"
+      icn                     20
+      ForegroundColor         "magenta"
+      #GUID                   a96c51d0-842f-4c84-ac8f-e032347c3d53
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_HOUR_MANE4"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 1418, 450, 1432]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "magenta"
+      #GUID                   7cd2ef2a-1a5e-48e0-a490-0f2bcc024c4a
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_MIN_MANB0"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [420, 308, 440, 322]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      FontSize                10
+      ForegroundColor         "green"
+      #GUID                   f8dd5a09-66a5-46f1-825f-0a50f642b97d
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_MIN_MANB1"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [425, 573, 445, 587]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      FontSize                10
+      ForegroundColor         "green"
+      #GUID                   84c7475e-5506-423d-b441-ab3bc5254b24
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_MIN_MANB2"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 833, 450, 847]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      FontSize                10
+      ForegroundColor         "green"
+      #GUID                   9f9c3235-b8fc-4203-bb9b-97f7b62f2097
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_MIN_MANB3"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 1083, 450, 1097]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      FontSize                10
+      ForegroundColor         "green"
+      #GUID                   337c2b57-01f6-4ccd-8b11-5a0b60462f9b
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_MIN_MANB4"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 1338, 450, 1352]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      FontSize                10
+      ForegroundColor         "green"
+      #GUID                   b4d54241-ff45-41ee-bc3a-998fa223842a
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_MIN_MANE0"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [420, 423, 440, 437]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "yellow"
+      #GUID                   cb8e1f06-ce74-4e2e-b6e5-ac1f52c4988d
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_MIN_MANE1"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [425, 688, 445, 702]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "yellow"
+      #GUID                   f9e0ae44-e2b5-40c0-9877-e4248bb7cdae
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_MIN_MANE2"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 948, 450, 962]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "yellow"
+      #GUID                   1db38a06-1d75-4202-bdf8-9b73877dde4d
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_MIN_MANE3"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 1198, 450, 1212]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "yellow"
+      #GUID                   03f1571c-9a38-4608-a8b3-e5915cebcce8
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_MIN_MANE4"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 1453, 450, 1467]
+      SourceBlock             "mathlib/CNI"
+      icn                     50
+      ForegroundColor         "yellow"
+      #GUID                   516c857d-6729-423b-9087-ec14721fd315
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_SEC_MANB0"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [420, 343, 440, 357]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "blue"
+      #GUID                   ba20a1d5-1b4e-45bd-9a49-a2c2ad437a8f
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_SEC_MANB1"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [425, 608, 445, 622]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "blue"
+      #GUID                   4a29a57f-bb51-4697-a8ca-e2c17fb9edce
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_SEC_MANB2"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 868, 450, 882]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "blue"
+      #GUID                   78f0d03e-08b7-4258-8705-210377fd56af
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_SEC_MANB3"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 1118, 450, 1132]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "blue"
+      #GUID                   e9365d38-865e-4ed9-aba3-5baa2310882c
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_SEC_MANB4"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 1373, 450, 1387]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "blue"
+      #GUID                   d296919e-833c-4a3d-8543-82e98a94cb39
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_SEC_MANE0"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [420, 458, 440, 472]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "lightBlue"
+      #GUID                   eb64877c-9cda-4f2f-9435-0b0f18ce6377
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_SEC_MANE1"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [425, 723, 445, 737]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "lightBlue"
+      #GUID                   1182bdd1-c314-4d8d-9871-ec29033a84d1
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_SEC_MANE2"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 983, 450, 997]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "lightBlue"
+      #GUID                   7d8eec52-9d04-4d5c-ae40-17fd2cf286b4
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_SEC_MANE3"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 1233, 450, 1247]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "lightBlue"
+      #GUID                   3da6952d-8173-4c71-a51f-69e16b8ba54c
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI_TIME_SEC_MANE4"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [430, 1488, 450, 1502]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      ForegroundColor         "lightBlue"
+      #GUID                   2cdfd87d-17c4-43b4-ad9f-17948bc1b76e
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNR"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [90, 18, 110, 32]
+      SourceBlock             "mathlib/CNR"
+      ycn                     "31.166667"
+      #GUID                   1124251f-d565-4cd7-8d6a-da2a917b2d9e
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNR1"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [55, 173, 75, 187]
+      SourceBlock             "mathlib/CNR"
+      ycn                     "-81.483333"
+      #GUID                   c1b89ea6-d27a-417b-bbf9-2bc406d3cbcf
+    }
+    Block {
+      BlockType               Display
+      Name                    "Display1"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [330, 157, 465, 193]
+      Format                  "Best fit"
+      ShowName                off
+      Decimation              1
+      Suffix                  ""
+      DispValue               ""
+      #GUID                   325483ab-7788-4a16-a6e9-eeb5870f5d27
+    }
+    Block {
+      BlockType               Display
+      Name                    "Display8"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [335, 60, 465, 90]
+      Format                  "Best fit"
+      ShowName                off
+      Decimation              1
+      Suffix                  " "
+      DispValue               ""
+      #GUID                   d2f801b7-d080-4e21-826d-68d5e500c3e2
+    }
+    Block {
+      BlockType               Reference
+      Name                    "SILO_LAT_W"
+      Ports                   [3, 3, 0, 0, 0]
+      Position                [235, 68, 290, 102]
+      SourceBlock             "paramlib/SILO"
+      fname                   "/static/LAT.txt"
+      CSF                     off
+      CLF                     off
+      yerr                    0
+      BackgroundColor         "cyan"
+      #GUID                   42d2359a-2fee-4dd3-afbe-49ee7070f21c
+    }
+    Block {
+      BlockType               Reference
+      Name                    "SILO_LON_W"
+      Ports                   [3, 3, 0, 0, 0]
+      Position                [230, 168, 285, 202]
+      SourceBlock             "paramlib/SILO"
+      fname                   "/static/LON.txt"
+      CSF                     off
+      CLF                     off
+      yerr                    0
+      BackgroundColor         "cyan"
+      #GUID                   d68ee748-4361-425b-b3b3-59c1396d48e8
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_HOUR_MANB0"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [545, 273, 575, 287]
+      Port                    1
+      ForegroundColor         "red"
+      #GUID                   efaee25b-4904-4301-ba13-8889e846137c
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_MIN_MANB0"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [545, 308, 575, 322]
+      Port                    2
+      ForegroundColor         "green"
+      #GUID                   7a7e0aa3-a220-4934-bb53-57e11701396f
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_SEC_MANB0"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [545, 343, 575, 357]
+      Port                    3
+      ForegroundColor         "blue"
+      #GUID                   db305eba-7634-47d7-9145-96987f3da930
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_HOUR_MANE0"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [545, 388, 575, 402]
+      Port                    4
+      ForegroundColor         "magenta"
+      #GUID                   40fe6bc6-527a-45a9-8581-abb7d8ab6ff3
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_MIN_MANE0"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [545, 423, 575, 437]
+      Port                    5
+      ForegroundColor         "yellow"
+      #GUID                   9f80c02b-fb8a-490d-810c-5257b1736167
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_SEC_MANE0"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [545, 458, 575, 472]
+      Port                    6
+      ForegroundColor         "lightBlue"
+      #GUID                   6c633757-2b5a-460a-882d-dbd76211fba3
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_HOUR_MANB1"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [550, 538, 580, 552]
+      Port                    7
+      ForegroundColor         "red"
+      #GUID                   d11fcf06-c41e-467c-b9a2-1ee65504f202
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_HOUR_MANE1"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [550, 653, 580, 667]
+      Port                    8
+      ForegroundColor         "magenta"
+      #GUID                   24aa4869-c1ed-4f3b-bee9-db90e4a88cce
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_MIN_MANB1"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [550, 573, 580, 587]
+      Port                    9
+      ForegroundColor         "green"
+      #GUID                   2c560a06-da37-4c80-926e-bdefc89beaf8
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_MIN_MANE1"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [550, 688, 580, 702]
+      Port                    10
+      ForegroundColor         "yellow"
+      #GUID                   494e0981-5f09-44a0-9c75-1de762bef459
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_SEC_MANB1"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [550, 608, 580, 622]
+      Port                    11
+      ForegroundColor         "blue"
+      #GUID                   3da99fb7-6125-4d8a-9bee-9857158639af
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_SEC_MANE1"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [550, 723, 580, 737]
+      Port                    12
+      ForegroundColor         "lightBlue"
+      #GUID                   7d275c02-fc8f-4bbc-9e56-41b0c54d396c
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_HOUR_MANB2"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 798, 585, 812]
+      Port                    13
+      ForegroundColor         "red"
+      #GUID                   dfc5698a-5636-40f2-94ba-678b8c29d79b
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_HOUR_MANE2"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 913, 585, 927]
+      Port                    14
+      ForegroundColor         "magenta"
+      #GUID                   201c9176-8e56-4dff-9d0f-ece46c2a3904
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_MIN_MANB2"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 833, 585, 847]
+      Port                    15
+      ForegroundColor         "green"
+      #GUID                   fff99c40-266a-40a6-9b84-0973ab3e96c5
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_MIN_MANE2"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 948, 585, 962]
+      Port                    16
+      ForegroundColor         "yellow"
+      #GUID                   414362fe-7656-4c76-9101-1ab4d7c1afd3
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_SEC_MANB2"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 868, 585, 882]
+      Port                    17
+      ForegroundColor         "blue"
+      #GUID                   baadaee4-d9c0-405b-8409-5a85942f9b86
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_SEC_MANE2"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 983, 585, 997]
+      Port                    18
+      ForegroundColor         "lightBlue"
+      #GUID                   b28b2620-4bd9-49ce-8a69-909a22aaa2d3
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_HOUR_MANB3"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 1048, 585, 1062]
+      Port                    19
+      ForegroundColor         "red"
+      #GUID                   f4b2e196-d463-425d-9fc3-1c1044d9a57c
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_HOUR_MANE3"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 1163, 585, 1177]
+      Port                    20
+      ForegroundColor         "magenta"
+      #GUID                   bef0ba7c-e4ac-44c0-a3c8-dc50759a694a
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_MIN_MANB3"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 1083, 585, 1097]
+      Port                    21
+      ForegroundColor         "green"
+      #GUID                   484aace7-e5d4-44ca-b069-0f4d99fe4d1c
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_MIN_MANE3"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 1198, 585, 1212]
+      Port                    22
+      ForegroundColor         "yellow"
+      #GUID                   fe904d33-fd7c-4a7f-9600-6ec5d652b54b
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_SEC_MANB3"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 1118, 585, 1132]
+      Port                    23
+      ForegroundColor         "blue"
+      #GUID                   164df435-9e9d-489f-9b5b-d377273a8a4c
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_SEC_MANE3"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 1233, 585, 1247]
+      Port                    24
+      ForegroundColor         "lightBlue"
+      #GUID                   c537b686-5e1b-4000-a7c1-cc1e40f0f403
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_HOUR_MANB4"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 1303, 585, 1317]
+      Port                    25
+      ForegroundColor         "red"
+      #GUID                   27212387-4206-4c2e-b891-4e1a7c8453d3
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_HOUR_MANE4"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 1418, 585, 1432]
+      Port                    26
+      ForegroundColor         "magenta"
+      #GUID                   9ef9280b-6cab-4d15-bd23-4ec594450527
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_MIN_MANB4"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 1338, 585, 1352]
+      Port                    27
+      ForegroundColor         "green"
+      #GUID                   e382c6d9-75fe-406d-9aaf-57186d32b6a1
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_MIN_MANE4"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 1453, 585, 1467]
+      Port                    28
+      ForegroundColor         "yellow"
+      #GUID                   276bdba1-c0e0-4da4-a2c9-ec17ab273d64
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_SEC_MANB4"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 1373, 585, 1387]
+      Port                    29
+      ForegroundColor         "blue"
+      #GUID                   679b7bbd-fa2a-4e28-a98e-55454e2a74ed
+    }
+    Block {
+      BlockType               Outport
+      Name                    "TIME_SEC_MANE4"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [555, 1488, 585, 1502]
+      Port                    30
+      ForegroundColor         "lightBlue"
+      #GUID                   29584f16-fe89-495e-9f75-aff9cb9d901a
+    }
+    Line {
+      SrcBlock                "CNB"
+      SrcPort                 1
+      Points                  [0, 5]
+      #GUID                   e9ac4eaf-a554-4f35-a5ac-c58701ebd0a5
+      Branch {
+        DstBlock                "SILO_LAT_W"
+        DstPort                 2
+        #GUID                   3d6f58ae-ad00-4fb3-a070-3501ef0083eb
+      }
+      Branch {
+        Points                  [0, 95; -5, 0; 0, 5]
+        DstBlock                "SILO_LON_W"
+        DstPort                 2
+        #GUID                   3b2a7425-5cd9-4fb6-929b-ef2d666068e2
+      }
+    }
+    Line {
+      SrcBlock                "CNB1"
+      SrcPort                 1
+      Points                  [25, 0]
+      #GUID                   2d6892e7-4c3d-45c6-b0d9-4edc6df948bc
+      Branch {
+        Points                  [80, 0]
+        DstBlock                "SILO_LAT_W"
+        DstPort                 3
+        #GUID                   fe896553-daf3-413d-ab68-beeb88130815
+      }
+      Branch {
+        Points                  [0, 95; 75, 0]
+        DstBlock                "SILO_LON_W"
+        DstPort                 3
+        #GUID                   91e022b4-2b76-4bcf-b577-fdc17c397650
+      }
+    }
+    Line {
+      SrcBlock                "CNI_TIME_HOUR_MANB0"
+      SrcPort                 1
+      DstBlock                "TIME_HOUR_MANB0"
+      DstPort                 1
+      #GUID                   ba96ae70-e9a4-421f-b13b-db22b5aeced9
+    }
+    Line {
+      SrcBlock                "CNI_TIME_HOUR_MANB1"
+      SrcPort                 1
+      DstBlock                "TIME_HOUR_MANB1"
+      DstPort                 1
+      #GUID                   5b37c2d3-ffaf-482d-a50f-1096565ef5d4
+    }
+    Line {
+      SrcBlock                "CNI_TIME_HOUR_MANB2"
+      SrcPort                 1
+      DstBlock                "TIME_HOUR_MANB2"
+      DstPort                 1
+      #GUID                   05d1d33d-7bf2-4b66-b301-7cb6bdd51106
+    }
+    Line {
+      SrcBlock                "CNI_TIME_HOUR_MANB3"
+      SrcPort                 1
+      DstBlock                "TIME_HOUR_MANB3"
+      DstPort                 1
+      #GUID                   6f860d14-90fc-4790-8d3b-3aa7d611de34
+    }
+    Line {
+      SrcBlock                "CNI_TIME_HOUR_MANB4"
+      SrcPort                 1
+      DstBlock                "TIME_HOUR_MANB4"
+      DstPort                 1
+      #GUID                   ac52a94d-d0c4-4ee7-8ce2-fa3f7701d1a1
+    }
+    Line {
+      SrcBlock                "CNI_TIME_HOUR_MANE0"
+      SrcPort                 1
+      DstBlock                "TIME_HOUR_MANE0"
+      DstPort                 1
+      #GUID                   ae81a56b-2896-4c21-8850-ba5ce4db77fc
+    }
+    Line {
+      SrcBlock                "CNI_TIME_HOUR_MANE1"
+      SrcPort                 1
+      DstBlock                "TIME_HOUR_MANE1"
+      DstPort                 1
+      #GUID                   01cb7ed4-cd02-4673-8fa6-41ff7de70f02
+    }
+    Line {
+      SrcBlock                "CNI_TIME_HOUR_MANE2"
+      SrcPort                 1
+      DstBlock                "TIME_HOUR_MANE2"
+      DstPort                 1
+      #GUID                   b3b45c26-283c-4a70-96e9-0061b43307c4
+    }
+    Line {
+      SrcBlock                "CNI_TIME_HOUR_MANE3"
+      SrcPort                 1
+      DstBlock                "TIME_HOUR_MANE3"
+      DstPort                 1
+      #GUID                   81fd2796-fed0-4e0c-8abe-f85af54b51f3
+    }
+    Line {
+      SrcBlock                "CNI_TIME_HOUR_MANE4"
+      SrcPort                 1
+      DstBlock                "TIME_HOUR_MANE4"
+      DstPort                 1
+      #GUID                   e09757bc-7108-4a16-8f5c-b487199d9afa
+    }
+    Line {
+      SrcBlock                "CNI_TIME_MIN_MANB0"
+      SrcPort                 1
+      DstBlock                "TIME_MIN_MANB0"
+      DstPort                 1
+      #GUID                   fba21cd8-d1b6-4ca0-835d-fddc115e840a
+    }
+    Line {
+      SrcBlock                "CNI_TIME_MIN_MANB1"
+      SrcPort                 1
+      DstBlock                "TIME_MIN_MANB1"
+      DstPort                 1
+      #GUID                   b490f0b7-7172-4b91-b6aa-1890dff0b6f9
+    }
+    Line {
+      SrcBlock                "CNI_TIME_MIN_MANB2"
+      SrcPort                 1
+      DstBlock                "TIME_MIN_MANB2"
+      DstPort                 1
+      #GUID                   3c55fc53-b9c7-4a6f-8727-75aeafa7cbd5
+    }
+    Line {
+      SrcBlock                "CNI_TIME_MIN_MANB3"
+      SrcPort                 1
+      DstBlock                "TIME_MIN_MANB3"
+      DstPort                 1
+      #GUID                   7cc5871d-8b3e-4d95-b95f-7f3ca02576b0
+    }
+    Line {
+      SrcBlock                "CNI_TIME_MIN_MANB4"
+      SrcPort                 1
+      DstBlock                "TIME_MIN_MANB4"
+      DstPort                 1
+      #GUID                   c6b3687c-397c-4c5d-a39a-83dc1dda03d3
+    }
+    Line {
+      SrcBlock                "CNI_TIME_MIN_MANE0"
+      SrcPort                 1
+      DstBlock                "TIME_MIN_MANE0"
+      DstPort                 1
+      #GUID                   cb48e97e-be6a-4897-a53f-231fa0360878
+    }
+    Line {
+      SrcBlock                "CNI_TIME_MIN_MANE1"
+      SrcPort                 1
+      DstBlock                "TIME_MIN_MANE1"
+      DstPort                 1
+      #GUID                   3b0e5bb6-c2f1-4fe9-bb63-29ed0bad04db
+    }
+    Line {
+      SrcBlock                "CNI_TIME_MIN_MANE2"
+      SrcPort                 1
+      DstBlock                "TIME_MIN_MANE2"
+      DstPort                 1
+      #GUID                   e503598e-1ed3-477c-972e-8f38b169a7ef
+    }
+    Line {
+      SrcBlock                "CNI_TIME_MIN_MANE3"
+      SrcPort                 1
+      DstBlock                "TIME_MIN_MANE3"
+      DstPort                 1
+      #GUID                   c1b7a96d-97f8-491e-b82b-fd06f73f35af
+    }
+    Line {
+      SrcBlock                "CNI_TIME_MIN_MANE4"
+      SrcPort                 1
+      DstBlock                "TIME_MIN_MANE4"
+      DstPort                 1
+      #GUID                   87e9df35-cdfa-45d7-a28f-7eba29e7fe77
+    }
+    Line {
+      SrcBlock                "CNI_TIME_SEC_MANB0"
+      SrcPort                 1
+      DstBlock                "TIME_SEC_MANB0"
+      DstPort                 1
+      #GUID                   4b1b3306-d109-4027-b453-498ceaf65e74
+    }
+    Line {
+      SrcBlock                "CNI_TIME_SEC_MANB1"
+      SrcPort                 1
+      DstBlock                "TIME_SEC_MANB1"
+      DstPort                 1
+      #GUID                   93191e87-863b-47d2-b233-87d53b3a271b
+    }
+    Line {
+      SrcBlock                "CNI_TIME_SEC_MANB2"
+      SrcPort                 1
+      DstBlock                "TIME_SEC_MANB2"
+      DstPort                 1
+      #GUID                   6cae97ee-ecf1-4983-b782-6a15c6177d20
+    }
+    Line {
+      SrcBlock                "CNI_TIME_SEC_MANB3"
+      SrcPort                 1
+      DstBlock                "TIME_SEC_MANB3"
+      DstPort                 1
+      #GUID                   3bbe16d8-0790-4052-855e-a45f0b1c6927
+    }
+    Line {
+      SrcBlock                "CNI_TIME_SEC_MANB4"
+      SrcPort                 1
+      DstBlock                "TIME_SEC_MANB4"
+      DstPort                 1
+      #GUID                   36a3a278-ca4c-4485-80f0-7be29d22eb71
+    }
+    Line {
+      SrcBlock                "CNI_TIME_SEC_MANE0"
+      SrcPort                 1
+      DstBlock                "TIME_SEC_MANE0"
+      DstPort                 1
+      #GUID                   ba1cfa33-6b33-4468-a71b-9dcf5e89121a
+    }
+    Line {
+      SrcBlock                "CNI_TIME_SEC_MANE1"
+      SrcPort                 1
+      DstBlock                "TIME_SEC_MANE1"
+      DstPort                 1
+      #GUID                   1a795642-05cd-443a-a15b-db1ee98314d8
+    }
+    Line {
+      SrcBlock                "CNI_TIME_SEC_MANE2"
+      SrcPort                 1
+      DstBlock                "TIME_SEC_MANE2"
+      DstPort                 1
+      #GUID                   35f7dbc0-ca02-4c10-981c-a2d1161bc524
+    }
+    Line {
+      SrcBlock                "CNI_TIME_SEC_MANE3"
+      SrcPort                 1
+      DstBlock                "TIME_SEC_MANE3"
+      DstPort                 1
+      #GUID                   c933a071-ef3e-45f4-a0dd-4270c4deb353
+    }
+    Line {
+      SrcBlock                "CNI_TIME_SEC_MANE4"
+      SrcPort                 1
+      DstBlock                "TIME_SEC_MANE4"
+      DstPort                 1
+      #GUID                   b1888871-e103-4d2c-b088-3df92bec9728
+    }
+    Line {
+      SrcBlock                "CNR"
+      SrcPort                 1
+      Points                  [45, 0; 0, 20; 60, 0]
+      DstBlock                "SILO_LAT_W"
+      DstPort                 1
+      #GUID                   962fcce9-d88f-48a1-81ad-d247794c7184
+    }
+    Line {
+      SrcBlock                "CNR1"
+      SrcPort                 1
+      Points                  [15, 0; 0, -30; 120, 0]
+      DstBlock                "SILO_LON_W"
+      DstPort                 1
+      #GUID                   c15469ad-c631-4e5a-ad1a-22aad2dcddb5
+    }
+    Line {
+      SrcBlock                "SILO_LAT_W"
+      SrcPort                 1
+      DstBlock                "Display8"
+      DstPort                 1
+      #GUID                   fec61c08-11a3-467f-8d1c-e477ef3280e5
+    }
+    Line {
+      SrcBlock                "SILO_LON_W"
+      SrcPort                 1
+      DstBlock                "Display1"
+      DstPort                 1
+      #GUID                   f12a5843-5cb7-4138-862b-7b1f4e7f7141
+    }
+  }
+}
