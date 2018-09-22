@@ -1,0 +1,718 @@
+REX BINARY STREAM
+File identification: 0x52455802
+File version: 2
+REX identification: Version 2.50.7 Revision 9228, Target -1, Date 2018-03-28
+Section count: 5
+Parsed on: 2018-09-22 01:37:17 [UTC]
+
+[INFO]
+ChecksumBlocks: EDE046C601727FC09FB301278806BE31
+ChecksumParams: 195DDFB88D46CD93BC1EF2BFDB2F8C76
+ProjectID: 344b804b-75e8-4ff0-97ad-7ffab79841e6
+Title: VAS-REXYGEN-PROJECT-BETA
+Author: Christopher Rothfeldt
+Description: Vivarium Automation Server developed with REXYGEN by REX Controls
+Customer: General
+
+[MODULES]
+GUID: 00000000-0000-0000-0000-000000000000
+Size: 44
+File offset: 103
+Hash: 54D3BB8B20C14ACCB472D69018E16793DEC08F4EB94D295707A8A81A34015D0C
+Content not parsed
+
+[CLASS LIST]
+GUID: 00000000-0000-0000-0000-000000000000
+Size: 610
+File offset: 201
+Hash: 36A7D085398BF042E57860FF470C398E2597AAA5E5B6F22D723E8C98CC19699F
+Content not parsed
+
+[EXECUTIVE]
+GUID: 34e2c3a5-c5a0-11d2-87bb-00105abfecca
+Size: 89549
+File offset: 865
+Hash: CE5E9B3404FB3391D8EFBF705F46E3C3F7FAE0A7ED0ADF7A97E1C15108FDDEC5
+Content not parsed
+
+[HMI]
+GUID: 34e2c403-c5a0-11d2-87bb-00105abfecca
+Size: 552931
+File offset: 90468
+Hash: 46439A1CB0AD7DD6C448F750B8D64E2EE0798B8627321CB0F2AAE349687C8FA6
+  hmi/css/jquery-ui/images/animated-overlay.gif
+    size:1738 method:compressed time:2018-09-22 01:28:39
+  hmi/css/jquery-ui/images/ui-icons_000000_256x240.png
+    size:5331 method:compressed time:2018-09-22 01:28:39
+  hmi/css/jquery-ui/images/ui-icons_545e61_256x240.png
+    size:4549 method:compressed time:2018-09-22 01:28:39
+  hmi/css/jquery-ui/images/ui-icons_b6bab7_256x240.png
+    size:4549 method:compressed time:2018-09-22 01:28:39
+  hmi/css/jquery-ui/images/ui-icons_df2626_256x240.png
+    size:4549 method:compressed time:2018-09-22 01:28:39
+  hmi/css/jquery-ui/images/ui-icons_f6a312_256x240.png
+    size:4549 method:compressed time:2018-09-22 01:28:39
+  hmi/css/jquery-ui/jquery-ui-1.12.1-custom.min.css
+    size:30954 method:compressed time:2018-09-22 01:28:39
+  hmi/css/jquery-ui/jquery-ui-timepicker-addon.min.css
+    size:648 method:compressed time:2018-09-22 01:28:39
+  hmi/css/mdc/rex-material-components-web.css
+    size:349471 method:compressed time:2018-09-22 01:28:39
+  hmi/css/rex-hmi.min.css
+    size:78865 method:compressed time:2018-09-22 01:28:39
+  hmi/css/rex-ui-svg-general.css
+    size:129 method:compressed time:2018-03-28 21:56:38
+  hmi/humidity.html
+    size:12662 method:compressed time:2018-09-22 01:28:38
+  hmi/images/account.svg
+    size:27013 method:compressed time:2018-09-22 01:28:39
+  hmi/images/favicon.ico
+    size:16958 method:compressed time:2018-09-22 01:28:39
+  hmi/images/graph/chart_line.png
+    size:526 method:compressed time:2018-09-22 01:28:39
+  hmi/images/graph/cog.png
+    size:512 method:compressed time:2018-09-22 01:28:39
+  hmi/images/graph/control_pause_blue.png
+    size:721 method:compressed time:2018-09-22 01:28:39
+  hmi/images/graph/control_play_blue.png
+    size:717 method:compressed time:2018-09-22 01:28:39
+  hmi/images/graph/text_list_bullets.png
+    size:344 method:compressed time:2018-09-22 01:28:39
+  hmi/images/info.svg
+    size:2916 method:compressed time:2018-09-22 01:28:39
+  hmi/images/lock.svg
+    size:27158 method:compressed time:2018-09-22 01:28:39
+  hmi/images/logo.svg
+    size:4593 method:compressed time:2018-09-22 01:28:39
+  hmi/images/logo_inverted.svg
+    size:2853 method:compressed time:2018-09-22 01:28:39
+  hmi/images/menu.svg
+    size:2167 method:compressed time:2018-09-22 01:28:39
+  hmi/images/rex-block/error.png
+    size:614 method:compressed time:2018-09-22 01:28:39
+  hmi/images/rex-block/info.png
+    size:1087 method:compressed time:2018-09-22 01:28:39
+  hmi/images/small_logo.svg
+    size:2905 method:compressed time:2018-09-22 01:28:39
+  hmi/images/small_logo_inverted.svg
+    size:1680 method:compressed time:2018-09-22 01:28:39
+  hmi/index.html
+    size:157379 method:compressed time:2018-09-22 01:28:39
+  hmi/js/rex-ui-svg-general.js
+    size:139726 method:compressed time:2018-03-28 21:56:38
+  hmi/js/rex-ui-svg-home.js
+    size:30077 method:compressed time:2018-03-28 21:56:38
+  hmi/js/rex-ui-svg-hvac.js
+    size:26295 method:compressed time:2018-03-28 21:56:38
+  hmi/js/rex-ui-svg-proc.js
+    size:12196 method:compressed time:2018-03-28 21:56:38
+  hmi/js/rexhmi-vendor.min.js
+    size:1225574 method:compressed time:2018-09-22 01:28:39
+  hmi/js/rexhmi.min.js
+    size:362021 method:compressed time:2018-09-22 01:28:39
+  hmi/temperature.html
+    size:12656 method:compressed time:2018-09-22 01:28:39
+  hmi/.cfg/default
+    size:0 method:stored time:2018-09-22 01:28:39
+
+[PROJECT]
+GUID: 34e2c3fd-c5a0-11d2-87bb-00105abfecca
+Size: 1363244
+File offset: 643453
+Hash: D1DCAE623E8328714A51462A9AEF1C05BC1EE2DB070BE786F042C53AC48804B7
+  .git/COMMIT_EDITMSG
+    size:15 method:compressed time:2018-09-22 01:12:48
+  .git/config
+    size:321 method:compressed time:2018-09-22 01:19:34
+  .git/description
+    size:65 method:compressed time:2018-09-22 01:12:48
+  .git/FETCH_HEAD
+    size:116 method:compressed time:2018-09-22 01:22:00
+  .git/HEAD
+    size:23 method:compressed time:2018-09-22 01:12:47
+  .git/hooks/applypatch-msg.sample
+    size:478 method:compressed time:2018-09-22 01:12:47
+  .git/hooks/commit-msg.sample
+    size:896 method:compressed time:2018-09-22 01:12:47
+  .git/hooks/fsmonitor-watchman.sample
+    size:3327 method:compressed time:2018-09-22 01:12:47
+  .git/hooks/post-update.sample
+    size:189 method:compressed time:2018-09-22 01:12:47
+  .git/hooks/pre-applypatch.sample
+    size:424 method:compressed time:2018-09-22 01:12:47
+  .git/hooks/pre-commit.sample
+    size:1638 method:compressed time:2018-09-22 01:12:47
+  .git/hooks/pre-push.sample
+    size:1348 method:compressed time:2018-09-22 01:12:47
+  .git/hooks/pre-rebase.sample
+    size:4898 method:compressed time:2018-09-22 01:12:47
+  .git/hooks/pre-receive.sample
+    size:544 method:compressed time:2018-09-22 01:12:47
+  .git/hooks/prepare-commit-msg.sample
+    size:1492 method:compressed time:2018-09-22 01:12:47
+  .git/hooks/update.sample
+    size:3610 method:compressed time:2018-09-22 01:12:47
+  .git/index
+    size:289 method:compressed time:2018-09-22 01:12:49
+  .git/info/exclude
+    size:240 method:compressed time:2018-09-22 01:12:47
+  .git/logs/HEAD
+    size:179 method:compressed time:2018-09-22 01:12:48
+  .git/logs/refs/heads/master
+    size:179 method:compressed time:2018-09-22 01:12:48
+  .git/logs/refs/remotes/origin/master
+    size:161 method:compressed time:2018-09-22 01:19:34
+  .git/objects/6b/b8a291517d679d962db079ade50adfaf39ae2a
+    size:723 method:compressed time:2018-09-22 01:12:48
+  .git/objects/ab/cd4a9552f515616890bea0bfd72a813d55760b
+    size:124 method:compressed time:2018-09-22 01:12:48
+  .git/objects/c5/55fbf36e8714f0f62649b784259690f69460da
+    size:146 method:compressed time:2018-09-22 01:12:48
+  .git/objects/d9/59b75b0ce83d38e639155f3efbc0472499a547
+    size:43 method:compressed time:2018-09-22 01:12:48
+  .git/objects/df/e0770424b2a19faf507a501ebfc23be8f54e7b
+    size:76 method:compressed time:2018-09-22 01:12:48
+  .git/refs/heads/master
+    size:41 method:compressed time:2018-09-22 01:12:48
+  .git/refs/remotes/origin/master
+    size:41 method:compressed time:2018-09-22 01:19:34
+  .gitattributes
+    size:66 method:compressed time:2018-09-22 01:12:48
+  BACKUP/VAS_21SEP2018_203600
+    size:643219 method:compressed time:2018-09-22 00:36:17
+  BACKUP/VAS_21SEP2018_203600.txt
+    size:4357 method:compressed time:2018-09-22 00:36:17
+  data/dht/DHT_Z1.py
+    size:2039 method:compressed time:2018-09-22 00:34:07
+  data/dht/DHT_Z2.py
+    size:2039 method:compressed time:2018-09-22 00:34:08
+  data/dht/DHT_Z3.py
+    size:2039 method:compressed time:2018-09-22 00:34:08
+  data/dht/DHT_Z4.py
+    size:2039 method:compressed time:2018-09-22 00:34:07
+  data/dht/DHT_Z5.py
+    size:2039 method:compressed time:2018-09-22 00:34:07
+  data/dht/DHT_Z6.py
+    size:2039 method:compressed time:2018-09-22 00:34:07
+  data/dht/DHT_Z7.py
+    size:2039 method:compressed time:2018-09-22 00:34:07
+  data/dht/DHT_Z8.py
+    size:2039 method:compressed time:2018-09-22 00:34:07
+  data/ephem/ephem_updater_bct.py
+    size:6735 method:compressed time:2018-09-22 00:34:08
+  data/ephem/ephem_updater_ect.py
+    size:6686 method:compressed time:2018-09-22 00:34:08
+  data/ephem/ephem_updater_moonphases.py
+    size:1134 method:compressed time:2018-09-22 00:34:08
+  data/ephem/ephem_updater_moonrise.py
+    size:6455 method:compressed time:2018-09-22 00:34:08
+  data/ephem/ephem_updater_moonset.py
+    size:6431 method:compressed time:2018-09-22 00:34:08
+  data/ephem/ephem_updater_moontransit.py
+    size:6542 method:compressed time:2018-09-22 00:34:08
+  data/ephem/ephem_updater_sunrise.py
+    size:6429 method:compressed time:2018-09-22 00:34:08
+  data/ephem/ephem_updater_sunset.py
+    size:6406 method:compressed time:2018-09-22 00:34:08
+  data/ephem/ephem_updater_suntransit.py
+    size:6516 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/loc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/loc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/loc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/loc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/loc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/loc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/loc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/loc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/loc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/loc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/loc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/utc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/utc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/utc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/utc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/utc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/utc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/utc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/utc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/utc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/utc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/begin_civil_twilight/utc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/dht_z1/RH.txt
+    size:9 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/dht_z1/TC.txt
+    size:9 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/dht_z1/TF.txt
+    size:9 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/dht_z2/RH.txt
+    size:9 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/dht_z2/TC.txt
+    size:9 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/dht_z2/TF.txt
+    size:9 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/dht_z3/RH.txt
+    size:9 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/dht_z3/TC.txt
+    size:9 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/dht_z3/TF.txt
+    size:9 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/end_civil_twilight/loc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/loc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/loc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/loc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/loc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/loc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/loc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/loc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/loc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/loc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/loc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/utc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/utc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/utc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/utc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/utc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/utc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/utc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/utc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/utc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/utc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/end_civil_twilight/utc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/moonrise/loc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonrise/loc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/loc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/loc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/loc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/loc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/loc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/loc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/loc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/loc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/loc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/utc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/utc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/utc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/utc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/utc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/utc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/utc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/utc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/utc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/utc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonrise/utc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/moonset/loc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/loc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/loc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/loc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/loc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/loc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/loc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/loc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/loc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/loc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/loc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/utc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/utc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/utc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/utc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/utc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/utc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/utc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/utc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/utc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/utc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moonset/utc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/loc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/loc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/loc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/loc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/loc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/loc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/loc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/loc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/loc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/loc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/loc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/utc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/utc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/utc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/utc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/utc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/utc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/utc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/utc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/utc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/utc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/moon_transit/utc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sunrise/loc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/loc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/loc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/loc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/loc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/loc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/loc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/loc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/loc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/loc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/loc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/utc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/utc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/utc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/utc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/utc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/utc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/utc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/utc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/utc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/utc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunrise/utc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:08
+  data/ramdisk/sunset/loc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/loc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sunset/loc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/loc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sunset/loc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sunset/loc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/loc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/loc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/loc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/loc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sunset/loc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/utc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/utc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/utc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sunset/utc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/utc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/utc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/utc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/utc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/utc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/utc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sunset/utc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:10
+  data/ramdisk/sun_transit/loc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/loc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/loc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/loc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/loc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/loc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/loc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/loc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/loc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/loc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/loc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/utc_day.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/utc_dayyear.txt
+    size:3 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/utc_hour.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/utc_lapd.txt
+    size:8 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/utc_lapt.txt
+    size:8 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/utc_minute.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/utc_month.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/utc_second.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/utc_weekday.txt
+    size:1 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/utc_weekyear.txt
+    size:2 method:compressed time:2018-09-22 00:34:09
+  data/ramdisk/sun_transit/utc_year.txt
+    size:4 method:compressed time:2018-09-22 00:34:09
+  data/static/DHT_Z1_PIN.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/DHT_Z1_SENSOR.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/DHT_Z2_PIN.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/DHT_Z2_SENSOR.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/DHT_Z3_PIN.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/DHT_Z3_SENSOR.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/DHT_Z4_PIN.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/DHT_Z4_SENSOR.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/DHT_Z5_PIN.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/DHT_Z5_SENSOR.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/DHT_Z6_PIN.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/DHT_Z6_SENSOR.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/DHT_Z7_PIN.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/DHT_Z7_SENSOR.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/DHT_Z8_PIN.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/DHT_Z8_SENSOR.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/LAT.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  data/static/LON.txt
+    size:25 method:compressed time:2018-09-22 00:34:10
+  hmi/css/jquery-ui/images/animated-overlay.gif
+    size:1738 method:compressed time:2018-09-22 01:28:39
+  hmi/css/jquery-ui/images/ui-icons_000000_256x240.png
+    size:5331 method:compressed time:2018-09-22 01:28:39
+  hmi/css/jquery-ui/images/ui-icons_545e61_256x240.png
+    size:4549 method:compressed time:2018-09-22 01:28:39
+  hmi/css/jquery-ui/images/ui-icons_b6bab7_256x240.png
+    size:4549 method:compressed time:2018-09-22 01:28:39
+  hmi/css/jquery-ui/images/ui-icons_df2626_256x240.png
+    size:4549 method:compressed time:2018-09-22 01:28:39
+  hmi/css/jquery-ui/images/ui-icons_f6a312_256x240.png
+    size:4549 method:compressed time:2018-09-22 01:28:39
+  hmi/css/jquery-ui/jquery-ui-1.12.1-custom.min.css
+    size:30954 method:compressed time:2018-09-22 01:28:39
+  hmi/css/jquery-ui/jquery-ui-timepicker-addon.min.css
+    size:648 method:compressed time:2018-09-22 01:28:39
+  hmi/css/mdc/rex-material-components-web.css
+    size:349471 method:compressed time:2018-09-22 01:28:39
+  hmi/css/rex-hmi.min.css
+    size:78865 method:compressed time:2018-09-22 01:28:39
+  hmi/css/rex-ui-svg-general.css
+    size:129 method:compressed time:2018-03-28 21:56:38
+  hmi/humidity.html
+    size:12662 method:compressed time:2018-09-22 01:28:38
+  hmi/images/account.svg
+    size:27013 method:compressed time:2018-09-22 01:28:39
+  hmi/images/favicon.ico
+    size:16958 method:compressed time:2018-09-22 01:28:39
+  hmi/images/graph/chart_line.png
+    size:526 method:compressed time:2018-09-22 01:28:39
+  hmi/images/graph/cog.png
+    size:512 method:compressed time:2018-09-22 01:28:39
+  hmi/images/graph/control_pause_blue.png
+    size:721 method:compressed time:2018-09-22 01:28:39
+  hmi/images/graph/control_play_blue.png
+    size:717 method:compressed time:2018-09-22 01:28:39
+  hmi/images/graph/text_list_bullets.png
+    size:344 method:compressed time:2018-09-22 01:28:39
+  hmi/images/info.svg
+    size:2916 method:compressed time:2018-09-22 01:28:39
+  hmi/images/lock.svg
+    size:27158 method:compressed time:2018-09-22 01:28:39
+  hmi/images/logo.svg
+    size:4593 method:compressed time:2018-09-22 01:28:39
+  hmi/images/logo_inverted.svg
+    size:2853 method:compressed time:2018-09-22 01:28:39
+  hmi/images/menu.svg
+    size:2167 method:compressed time:2018-09-22 01:28:39
+  hmi/images/rex-block/error.png
+    size:614 method:compressed time:2018-09-22 01:28:39
+  hmi/images/rex-block/info.png
+    size:1087 method:compressed time:2018-09-22 01:28:39
+  hmi/images/small_logo.svg
+    size:2905 method:compressed time:2018-09-22 01:28:39
+  hmi/images/small_logo_inverted.svg
+    size:1680 method:compressed time:2018-09-22 01:28:39
+  hmi/index.html
+    size:157379 method:compressed time:2018-09-22 01:28:39
+  hmi/js/rex-ui-svg-general.js
+    size:139726 method:compressed time:2018-03-28 21:56:38
+  hmi/js/rex-ui-svg-home.js
+    size:30077 method:compressed time:2018-03-28 21:56:38
+  hmi/js/rex-ui-svg-hvac.js
+    size:26295 method:compressed time:2018-03-28 21:56:38
+  hmi/js/rex-ui-svg-proc.js
+    size:12196 method:compressed time:2018-03-28 21:56:38
+  hmi/js/rexhmi-vendor.min.js
+    size:1225574 method:compressed time:2018-09-22 01:28:39
+  hmi/js/rexhmi.min.js
+    size:362021 method:compressed time:2018-09-22 01:28:39
+  hmi/temperature.html
+    size:12656 method:compressed time:2018-09-22 01:28:39
+  hmisrc/humidity.hmi.svg
+    size:23936 method:compressed time:2018-09-19 20:39:05
+  hmisrc/index.hmi.svg
+    size:243907 method:compressed time:2018-09-19 20:38:19
+  hmisrc/temperature.hmi.svg
+    size:23933 method:compressed time:2018-09-19 20:40:33
+  LICENSE
+    size:1209 method:compressed time:2018-09-22 01:12:48
+  README.md
+    size:27 method:compressed time:2018-09-22 01:12:48
+  RPi-W1_owscfg.rio
+    size:397 method:compressed time:2018-09-22 01:25:43
+  VAS_exec.mdl
+    size:9417 method:compressed time:2018-09-22 01:28:17
+  VAS_LEVEL0_TASK0_MAIN.mdl
+    size:8370 method:compressed time:2018-09-21 20:53:53
+  VAS_LEVEL0_TASK1_TIME.mdl
+    size:852023 method:compressed time:2018-09-21 22:26:50
+  VAS_LEVEL1_TASK0_SETUP.mdl
+    size:201744 method:compressed time:2018-09-21 22:26:51
+  VAS_LEVELxTASKx_THT.mdl
+    size:22931 method:compressed time:2017-11-15 01:17:35
