@@ -35,7 +35,7 @@ Model {
   System {
     Name                    "VAS_LEVEL1_TASK0_SETUP"
     ZoomFactor              121
-    Location                [77, 213, 1753, 1052]
+    Location                [105, 470, 1781, 1309]
     #GUID                   8a116ae6-bedc-4187-ac17-10ee0b0755ca
     Block {
       BlockType               Reference
@@ -203,7 +203,7 @@ Model {
       BlockType               Reference
       Name                    "CNB_DT_GET"
       Ports                   [0, 1, 0, 0, 0]
-      Position                [1295, 573, 1315, 587]
+      Position                [575, 543, 595, 557]
       SourceBlock             "mathlib/CNB"
       YCN                     off
       #GUID                   e4571a6d-ce1b-4633-99b1-3e39e51fb938
@@ -835,7 +835,7 @@ Model {
       BlockType               Reference
       Name                    "DATETIME"
       Ports                   [9, 13, 0, 0, 0]
-      Position                [1370, 275, 1480, 595]
+      Position                [650, 245, 760, 565]
       SourceBlock             "timelib/DATETIME"
       isetmode                "6: The usec input - set HW clock only"
       igetmode                "7: HW clock"

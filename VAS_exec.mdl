@@ -74,7 +74,7 @@ Model {
       module                  "OwsDrv"
       classname               "OwsDrv"
       cfgname                 "RPi-W1_owscfg.rio"
-      factor                  15
+      factor                  6
       stack                   10240
       pri                     3
       timer                   off
@@ -95,7 +95,7 @@ Model {
       Position                [40, 443, 85, 462]
       SourceBlock             "execlib/PROJECT"
       CompileParams           ""
-      SourcesOnTarget         on
+      SourcesOnTarget         off
       TargetURL               ""
       #GUID                   d5f7559c-6baa-49c3-a19f-66d21ea6af6e
     }

@@ -35,7 +35,7 @@ Model {
   System {
     Name                    "VAS_LEVEL0_TASK0_MAIN"
     ZoomFactor              146
-    Location                [833, 119, 1623, 652]
+    Location                [675, 109, 1465, 642]
     #GUID                   c414b7b5-adad-44a7-80c9-5e4e2f19d292
     Block {
       BlockType               Inport
@@ -130,6 +130,16 @@ Model {
     }
     Block {
       BlockType               From
+      Name                    "From1"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [305, 203, 425, 217]
+      ShowName                off
+      GotoTag                 "OWS__temperature0"
+      BackgroundColor         "yellow"
+      #GUID                   029017e4-0104-40cd-bd7b-4441a5a40bc4
+    }
+    Block {
+      BlockType               From
       Name                    "From2"
       Ports                   [0, 1, 0, 0, 0]
       Position                [300, 178, 420, 192]
@@ -137,6 +147,16 @@ Model {
       GotoTag                 "OWS__temperature"
       BackgroundColor         "yellow"
       #GUID                   b0d29d17-8add-4a55-8931-b00181027cab
+    }
+    Block {
+      BlockType               From
+      Name                    "From3"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [300, 228, 420, 242]
+      ShowName                off
+      GotoTag                 "OWS__sens"
+      BackgroundColor         "yellow"
+      #GUID                   00baf4be-5444-47b2-903f-d2e48bd5880f
     }
     Block {
       BlockType               Reference

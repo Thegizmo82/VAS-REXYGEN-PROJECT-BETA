@@ -4,11 +4,23 @@ OwsDrv {
   MaxConsAlarms           5
   MaxRetries              3
   Timeout                 10
-  ItemCount               1
+  ItemCount               3
   Item {
     Name                    "temperature"
-    Path                    "/28FFD7816C14033A/temperature12"
-    IOType                  0x0018
+    Path                    "/ts1/temperature12"
+    IOType                  0x0118
     InitValue               "25"
+  }
+  Item {
+    Name                    "temperature0"
+    Path                    "/ts2/temperature"
+    IOType                  0x0118
+    InitValue               "25"
+  }
+  Item {
+    Name                    "sens"
+    Path                    "/ds1/sensed"
+    IOType                  0x0112
+    InitValue               "0"
   }
 }
